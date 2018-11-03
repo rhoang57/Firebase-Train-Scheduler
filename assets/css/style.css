@@ -1,0 +1,44 @@
+.jumbotron-fluid {
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.add-train {
+    padding-left: 0px;
+}
+
+#add-train-header {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 2%;
+}
+
+#cts {
+    margin-top: 6px;
+}
+
+#current-time {
+    font-family: 'Orbitron', sans-serif;
+    color:red;
+    font-size: 1em;
+    float: right;
+    font-weight: bold;
+}
+
+#cts-header {
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(145, 196, 245);
+}
