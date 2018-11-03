@@ -98,8 +98,8 @@ database.ref().on("child_added", function(childSnapshot) {
         $("<td>").text(minutesTilTrain)
     );
 
-    //Append the new row with the added data to the table body and add current time to the card header
-    $("#train-table > tbody").append(newTrainRow);
+    //Append the new row with the added data to the table body and add current time to
+    $("#train-table").append(newTrainRow);
     $("#current-time").text("Current Time: " + moment().format("HH:mm"));
 
     });
