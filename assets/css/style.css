@@ -2,7 +2,7 @@
     background-color: black;
     font-family: 'Orbitron', sans-serif;
     color:white;
-    padding: 5%;
+    padding: 2%;
 }
 
 h1 {
@@ -11,6 +11,10 @@ h1 {
 
 .add-train {
     padding-left: 0px;
+}
+
+#add-train-btn:hover {
+    background-color: rgb(128, 128, 128);
 }
 
 #add-train-header {
@@ -29,8 +33,7 @@ h1 {
 #current-time {
     font-family: 'Orbitron', sans-serif;
     color:red;
-    font-size: 1em;
-    float: right;
+    font-size: 2em;
     font-weight: bold;
 }
 
